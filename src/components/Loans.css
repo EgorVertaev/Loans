@@ -1,0 +1,9 @@
+.loans {
+    padding: 30px;
+}
+
+.loans__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
