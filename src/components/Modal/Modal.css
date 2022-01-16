@@ -21,7 +21,7 @@
 .modal__content {
     background-color: #fff;
     width: 320px;
-    height: 220px;
+    padding: 20px 16px;
     transform: scale(0.5);
     transition: 0.2s all;
 }
@@ -29,3 +29,56 @@
 .modal__content.active {
     transform: scale(1);
 }
+
+.modal__title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.modal__available {
+    margin-bottom: 8px;
+}
+
+.modal__days {
+    margin-bottom: 20px;
+}
+
+.modal__amount {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.modal__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__input {
+   max-width: 150px; 
+   padding: 10px;
+   text-align: right;
+   border: 1px solid #cccccc;
+}
+
+.modal__input::-webkit-inner-spin-button, 
+.modal__input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.modal__input::placeholder {
+    color: #000
+}
+
+.modal__btn {
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+    background-color: #ffea00;
+    border: 1px solid #eeda00;
+}
+
