@@ -21,7 +21,9 @@
 
 .loan__button {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
 }
 
 .loan__btn {
@@ -30,4 +32,12 @@
     height: 40px;
     background-color: #ffea00;
     border: 1px solid #eeda00;
+}
+
+.loan__invested {
+    color: transparent;
+}
+
+.loan__invested.active {
+    color: #8fae8d;
 }
