@@ -1,0 +1,33 @@
+.loan {
+    max-width: 450px;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    padding: 18px 15px 15px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loan__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.loan__info {
+    margin-bottom: 25px;
+}
+
+.loan__button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.loan__btn {
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+    background-color: #ffea00;
+    border: 1px solid #eeda00;
+}

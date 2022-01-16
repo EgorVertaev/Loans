@@ -1,0 +1,40 @@
+html, body {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,
+figure,figcaption,blockquote,dl,dd {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-size:inherit;font-weight: inherit;
+}
+
+button {
+background-color: transparent;
+cursor: pointer;
+color: inherit;
+appearance: none;
+border: 0;
+padding: 0;
+line-height: 1;
+}
+
+body {
+background-color: #f5f5f5;
+}
+
+.App {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+}
+    
